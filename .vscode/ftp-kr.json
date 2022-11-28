@@ -1,0 +1,16 @@
+{
+    "host": "f0748076.xsph.ru",
+    "username": "f0748076",
+    "password": "123",
+    "remotePath": "/",
+    "protocol": "ftp",
+    "port": 21,
+    "fileNameEncoding": "utf8",
+    "autoUpload": true,
+    "autoDelete": true,
+    "autoDownload": true,
+    "ignore": [
+        ".git",
+        "/.vscode"
+    ]
+}
