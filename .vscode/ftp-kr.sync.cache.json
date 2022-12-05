@@ -19602,6 +19602,24 @@
         }
       }
     },
+    "index.css": {
+      "type": "-",
+      "size": 4722,
+      "lmtime": 1670272856860,
+      "modified": false
+    },
+    "index.css.map": {
+      "type": "-",
+      "size": 2301,
+      "lmtime": 1670272856860,
+      "modified": false
+    },
+    "index.html": {
+      "type": "-",
+      "size": 5096,
+      "lmtime": 1670272893484,
+      "modified": false
+    },
     "tmp": {}
   },
   "$version": 1
