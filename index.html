@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jopa</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header_content">
+        <img src="./images/логотип.svg" alt="img" class="header_content_logo" />
+        <img src="./images/бургер.svg" alt="img" class="header_content_burger" />
+      </div>
+    </header>
+    <main class="main">
+      <section class="slider_content">
+        <div class="slider_content_slide">первый слайд</div>
+        <div class="slider_content_slide"> не первый слайд</div>
+        <div class="slider_content_slide">третий </div>
+        <div class="slider_content_paganation">
+          <button class="slider_content_paganation_button"></button>
+          <button class="slider_content_paganation_button"></button>
+          <button class="slider_content_paganation_button"></button>
+        </div>
+      </section>
+      <section class="catalog" id="services">
+        <div class="catalog_element">
+          <img src="./images/товар.png" alt="img" class="catalog_element_img" />
+          <div class="catalog_element_text">
+            <p class="catalog_element_text_description">краткое описание</p>
+            <button class="catalog_element_text_button">Кнопка</button>
+          </div>
+        </div>
+        <div class="catalog_element">
+          <img src="./images/товар.png" alt="img" class="catalog_element_img" />
+          <div class="catalog_element_text">
+            <p class="catalog_element_text_description">краткое описание</p>
+            <button class="catalog_element_text_button">Кнопка</button>
+          </div>
+        </div>
+        <div class="catalog_element">
+          <img src="./images/товар.png" alt="img" class="catalog_element_img" />
+          <div class="catalog_element_text">
+            <p class="catalog_element_text_description">краткое описание</p>
+            <button class="catalog_element_text_button">Кнопка</button>
+          </div>
+        </div>
+        <div class="catalog_element">
+          <img src="./images/товар.png" alt="img" class="catalog_element_img" />
+          <div class="catalog_element_text">
+            <p class="catalog_element_text_description">краткое описание</p>
+            <button class="catalog_element_text_button">Кнопка</button>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <h2 class="about_title">О нас</h2>
+        <div class="about_text">
+          <p class="about_text_content">текст</p>
+        </div>
+      </section>
+      <section class="links" id="form">
+        <div class="links_element"></div>
+        <div class="links_element"></div>
+        <div class="links_element"></div>
+        <div class="links_element"></div>
+        <div class="links_element"></div>
+        <p class="links_text">блок ссылки в виде картинок</p>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer_content">
+        <div class="footer_content_wrapper">
+          <img src="./images/логотип.svg" alt="" class="footer_content_logo" />
+          <nav class="footer_content_nav">
+            <p class="footer_content_nav_text"><a href="/#about">о нас</a></p>
+            <p class="footer_content_nav_text"><a href="/#form">форма обратной связи</a></p>
+            <p class="footer_content_nav_text"><a href="/#services">выбор услуг</a></p>
+          </nav>
+        </div>
+        <div class="footer_content_secondwrapper">
+          <p class="footer_content_secondwrapper_text">контактная информация</p>
+          <div class="footer_content_secondwrapper_social">
+            <img src="./images/Vector (10).svg" alt="socialimg" class="socialimg">
+            <img src="./images/Vector (8).svg" alt="socialimg" class="socialimg">
+            <img src="./images/Vector (9).svg" alt="socialimg" class="socialimg">
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="overlay">
+      <div class="overlay_content">
+        <p class="overlay_content_text"><a href="/#about">о нас</a></p>
+        <p class="overlay_content_text"><a href="/#form">форма обратной связи</a></p>
+        <p class="overlay_content_text"><a href="/#services">выбор услуг</a></p>
+        <button class="overlay_content_button">Закрыть</button>
+      </div>
+    </div>
+    <script src="./components/slider.js"></script>
+    <script src="./index.js" charset="utf-8" type="module"></script>
+  </body>
+</html>
